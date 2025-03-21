@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: members-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: members-service
+  template:
+    metadata:
+      labels:
+        app: members-service
+    spec:
+      containers:
+        - name: members-service
+          image: members-service:latest
+          ports:
+            - containerPort: 8000
