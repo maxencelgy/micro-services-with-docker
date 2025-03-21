@@ -26,7 +26,7 @@ kubectl describe deployment nginx-deployment
 
 **Capture d'écran / Résultat :**
 
-![img_1.png](img_1.png)![Détails du Déploiement](./captures/kubectl-describe-deployment.png)
+![img_1.png](img_1.png)
 
 ---
 
@@ -67,10 +67,7 @@ kubectl logs -l app=nginx
 
 ![img_5.png](img_5.png)
 
-## 6. Dashboard
-**Capture d'écran / Résultat :**
 
-![img_7.png](img_7.png)
 
 
 ## Rapport
