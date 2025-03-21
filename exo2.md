@@ -1,6 +1,6 @@
 # Livrables - Exercice Pratique : Déploiement, Mise à Jour, Scaling et Rollback sur Kubernetes
 
-Ce document présente l'ensemble des livrables de l'exercice pratique réalisé sur Kubernetes. Vous devez joindre des captures d'écran (ou copier les résultats de commandes) pour chaque étape. Remplacez les indications **[INSÉRER CAPTURE]** par vos images ou résultats.
+Ce document présente l'ensemble des livrables de l'exercice pratique réalisé sur Kubernetes.
 
 ---
 
@@ -87,5 +87,5 @@ kubectl logs -l app=nginx
 
 ## Conclusion
 
-Ce document rassemble les livrables demandés pour cet exercice sur Kubernetes. Assurez-vous d'ajouter toutes vos captures d'écran et de compléter le rapport pour valider l'exercice.
+Ce document rassemble les livrables demandés pour cet exercice sur Kubernetes.
 
