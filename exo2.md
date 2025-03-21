@@ -13,7 +13,7 @@ kubectl get pods
 
 **Capture d'écran / Résultat :**
 
-![img.png](img.png)
+![img_8.png](img_8.png)
 
 ---
 
