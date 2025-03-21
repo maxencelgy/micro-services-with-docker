@@ -26,8 +26,7 @@ kubectl describe deployment nginx-deployment
 
 **Capture d'écran / Résultat :**
 
-![Détails du Déploiement](./captures/kubectl-describe-deployment.png)
-<!-- Remplacez le chemin par l'emplacement réel de votre capture -->
+![img_1.png](img_1.png)![Détails du Déploiement](./captures/kubectl-describe-deployment.png)
 
 ---
 
@@ -40,8 +39,7 @@ kubectl rollout status deployment/nginx-deployment
 
 **Capture d'écran / Résultat :**
 
-![Rollout Status](./captures/kubectl-rollout-status.png)
-<!-- Remplacez le chemin par l'emplacement réel de votre capture -->
+![img_3.png](img_3.png)
 
 ---
 
@@ -54,8 +52,7 @@ kubectl rollout history deployment/nginx-deployment
 
 **Capture d'écran / Résultat :**
 
-![Historique des Rollouts](./captures/kubectl-rollout-history.png)
-<!-- Remplacez le chemin par l'emplacement réel de votre capture -->
+![img_4.png](img_4.png)<!-- Remplacez le chemin par l'emplacement réel de votre capture -->
 
 ---
 
@@ -68,25 +65,17 @@ kubectl logs -l app=nginx
 
 **Capture d'écran / Résultat :**
 
-![Logs des Pods](./captures/kubectl-logs.png)
-<!-- Remplacez le chemin par l'emplacement réel de votre capture -->
+![img_5.png](img_5.png)
 
----
+## 6. Dashboard
+**Capture d'écran / Résultat :**
+
+![img_7.png](img_7.png)
+
 
 ## Rapport
 
-Veuillez ajouter ici un court rapport expliquant :
 
-- **Les différences entre RollingUpdate et Recreate :**  
-  (Expliquer comment RollingUpdate permet une mise à jour progressive sans interruption et comment Recreate arrête puis recrée tous les pods, ce qui peut causer une indisponibilité temporaire.)
-
-- **Les observations lors du scaling manuel :**  
-  (Décrivez ce qui s'est passé lorsque vous avez ajusté le nombre de réplicas, par exemple en augmentant à 5 puis en revenant à 3.)
-
-- **L'analyse du déploiement problématique et la résolution via rollback :**  
-  (Expliquez comment vous avez simulé un déploiement défaillant avec une image inexistante, les erreurs rencontrées, et comment le rollback a permis de restaurer la version précédente.)
-
-**Exemple de rapport :**
 
 > **Différences entre RollingUpdate et Recreate :**  
 > RollingUpdate effectue une mise à jour progressive, garantissant une haute disponibilité de l'application, tandis que Recreate arrête tous les pods puis les recrée, ce qui peut provoquer une interruption temporaire.
